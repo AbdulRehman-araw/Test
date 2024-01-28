@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "id": "firstName",
+      "label": "First Name",
+      "type": "text",
+      "placeholder": "Enter your first name",
+      "isRequired": true
+    },
+    {
+      "id": "lastName",
+      "label": "Last Name",
+      "type": "text",
+      "placeholder": "Enter your last name",
+      "isRequired": true
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "type": "email",
+      "placeholder": "Enter your email",
+      "isRequired": true
+    },
+    {
+      "id": "gender",
+      "label": "Gender",
+      "type": "dropdown",
+      "options": ["Male", "Female", "Other"],
+      "isRequired": true
+    },
+    {
+      "id": "birthdate",
+      "label": "Birthdate",
+      "type": "date",
+      "isRequired": false
+    }
+  ]
+}
